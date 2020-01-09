@@ -1,6 +1,6 @@
 package Guztia;
 
-public abstract class Freskagarriak extends Artikuloa {
+public class Freskagarriak extends Artikuloa {
 	
 	private String zaporea;
 	boolean zukua;
@@ -64,13 +64,25 @@ public abstract class Freskagarriak extends Artikuloa {
 	/**
 	 * @param azukrea the azukrea to set
 	 */
+	
 	public void setAzukrea(int azukrea) {
 		this.azukrea = azukrea;
 	}
 
-	
-	public void printEzaugarriak(){
+	@Override
+	public void printEzaugarriak() {
+		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public boolean osasungarria() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+	
+	
 	
 }

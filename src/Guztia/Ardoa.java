@@ -1,6 +1,6 @@
 package Guztia;
 
-public abstract class Ardoa extends Artikuloa {
+public class Ardoa extends Artikuloa {
 
 	public Ardoa(String kodea, String izena, String marka, double salneurria, int stock) {
 		super(kodea, izena, marka, salneurria, stock);
@@ -72,4 +72,10 @@ public abstract class Ardoa extends Artikuloa {
 	
 	public void printEzaugarriak(){
 		}
+
+	@Override
+	public boolean osasungarria() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }
