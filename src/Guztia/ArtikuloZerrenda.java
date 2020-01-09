@@ -6,6 +6,10 @@ public class ArtikuloZerrenda {
 
 	private ArrayList<Artikuloa> lista;
 	
+	private ArtikuloZerrenda(){
+		lista = new ArrayList<Artikuloa>();
+	}
+	
 	/**
 	 * @return the lista
 	 */

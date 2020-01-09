@@ -2,6 +2,12 @@ package Guztia;
 
 public abstract class Ardoa extends Artikuloa {
 
+	public Ardoa(String kodea, String izena, String marka, double salneurria, int stock) {
+		super(kodea, izena, marka, salneurria, stock);
+		// TODO Auto-generated constructor stub
+	}
+
+
 	private String kolorea;
 	private String jatorria;
 	private int urtea;

@@ -8,6 +8,29 @@ public abstract class Artikuloa {
 	protected double salneurria;
 	protected int stock;
 	
+	public Artikuloa(String kodea, String izena, String marka, double salneurria, int stock){
+		this.kodea=kodea;
+		this.izena=izena;
+		this.marka=marka;
+		this.salneurria=salneurria;
+		this.stock=stock;
+	}
+	public Artikuloa(){
+		
+	}
+	
+	public void gehituStock(){
+		
+	}
+	
+	public void kenduStock(){
+		
+	}
+	
+	public abstract void printEzaugarriak();
+	
+	public abstract boolean osasungarria();
+	
 	/**
 	 * @return the kodea
 	 */
@@ -78,16 +101,4 @@ public abstract class Artikuloa {
 		this.stock = stock;
 	}
 	
-
-	public void gehituStock(){
-		
-	}
-	
-	public void kenduStock(){
-		
-	}
-	
-	public abstract void printEzaugarriak();
-	
-	public abstract boolean osasungarria();
 }

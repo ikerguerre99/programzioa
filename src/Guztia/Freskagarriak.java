@@ -1,24 +1,29 @@
 package Guztia;
 
 public abstract class Freskagarriak extends Artikuloa {
-
-	private String Zaporea;
+	
+	private String zaporea;
 	boolean zukua;
 	boolean gasa;
 	int azukrea;
+
 	
+	public Freskagarriak(){
+		super();
+	}
+
 	/**
 	 * @return the zaporea
 	 */
 	public String getZaporea() {
-		return Zaporea;
+		return zaporea;
 	}
 
 	/**
 	 * @param zaporea the zaporea to set
 	 */
 	public void setZaporea(String zaporea) {
-		Zaporea = zaporea;
+		this.zaporea = zaporea;
 	}
 
 	/**
